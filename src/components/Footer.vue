@@ -24,11 +24,12 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 .myFooter{
-  position: relative;
-  background-color: #ECE8FF;
-  color: #3A3A3A;
-  height: 100%;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
 }
 </style>
