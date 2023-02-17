@@ -10,7 +10,7 @@
       </button>
       <div class="collapse navbar-collapse justify-content-between" id="navbarText">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="#">О подразделении</a>
           </li>
           <li class="nav-item">

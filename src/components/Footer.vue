@@ -1,19 +1,21 @@
 <template>
   <footer class="myFooter">
-    <div>
-      <p>Контакты</p>
-    </div>
-    <div>
-      <p>Партнёрам</p>
-    </div>
-    <div>
-      <p>Помощь</p>
-    </div>
-    <div>
-      <p>FAQ</p>
-    </div>
-    <div>
-      <p>Telegram</p>
+    <div class="m-4">
+      <div>
+         <a>Контакты</a>
+      </div>
+      <div>
+         <a>Партнёрам</a>
+      </div>
+      <div>
+         <a>Помощь</a>
+      </div>
+      <div>
+        <a>FAQ</a>
+      </div>
+      <div>
+        <a>Telegram</a>
+      </div>
     </div>
   </footer>
 </template>
@@ -34,8 +36,10 @@ export default {
   color: #3A3A3A;
 }
 
-.myFooter>div {
+.wrap>div {
   margin-left: 1rem;
   margin-top: 0.5rem;
 }
+
+
 </style>
