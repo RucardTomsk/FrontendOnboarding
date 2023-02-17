@@ -3,7 +3,6 @@
   <div class="app">
 
     <Header>
-
     </Header>
 
     <main>
@@ -11,7 +10,6 @@
     </main>
 
     <Footer>
-
     </Footer>
 
   </div>
@@ -37,8 +35,6 @@ export default {
 }
 </script>
 <style>
-main{
-  height: 100%;
-}
+
 </style>
 
