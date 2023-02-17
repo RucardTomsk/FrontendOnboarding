@@ -1,19 +1,19 @@
 <template>
   <footer class="myFooter">
     <div class="m-4">
-      <div>
-         <a>Контакты</a>
+      <div class="links-in-footer">
+        <a>Контакты</a>
       </div>
-      <div>
+      <div class="links-in-footer">
          <a>Партнёрам</a>
       </div>
-      <div>
+      <div class="links-in-footer">
          <a>Помощь</a>
       </div>
-      <div>
+      <div class="links-in-footer">
         <a>FAQ</a>
       </div>
-      <div>
+      <div class="links-in-footer">
         <a>Telegram</a>
       </div>
     </div>
@@ -26,7 +26,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .myFooter{
   position: absolute;
   bottom: 0;
@@ -36,10 +36,11 @@ export default {
   color: #3A3A3A;
 }
 
-.wrap>div {
+.links-in-footer{
+  color: #3A3A3A;
   margin-left: 1rem;
   margin-top: 0.5rem;
+  font-family: sans-serif;
 }
-
 
 </style>
